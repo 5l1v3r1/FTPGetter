@@ -128,6 +128,7 @@ try:
     
 except Exception as e:
     print "[-] Failed attempt to create bind socket!"
+    print "[-] " + str(e)
     sys.exit(0)
     
 try:
@@ -151,6 +152,7 @@ try:
 
     conn.close()
     s.close()
-except:
+except Exception as e:
     print "[-] Failed attempt to send payload!"
-sys.exit(0)
+    print "[-] " + str(e)
+    sys.exit(0)
