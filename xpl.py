@@ -1,5 +1,4 @@
 # Exploit Author:      https://github.com/w4fz5uck5
-# Disclosure date:     05/03/2019
 # Exploit finished:    08/03/2019
 # Tested on:           Windows 7 x64 (Should work on new Windows versions too!)
 # Vulnerable software: FTPGetter Standard v.5.97.0.177
